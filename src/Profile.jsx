@@ -6,7 +6,7 @@ export default function Profile() {
   useEffect(() => {
     const token = localStorage.getItem("token");
 
-    fetch("http://localhost:3000/profile", {
+    fetch("https://githubusersearch-with-authentication.onrender.com/profile", {
       headers: {
         Authorization: token,
       },

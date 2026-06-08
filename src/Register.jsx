@@ -10,7 +10,7 @@ export default function Register({ goToLogin }) {
     const navigate = useNavigate();
 
     const handleregister = async () => {
-        const res = await fetch("http://localhost:3000/register", {
+        const res = await fetch("https://githubusersearch-with-authentication.onrender.com/register", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

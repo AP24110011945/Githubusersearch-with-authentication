@@ -11,7 +11,7 @@ export default function Login({ setToken }) {
   const navigate = useNavigate();
 
   const handleLogin = async () => {
-    const res = await fetch("http://localhost:3000/login", {
+    const res = await fetch("https://githubusersearch-with-authentication.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
